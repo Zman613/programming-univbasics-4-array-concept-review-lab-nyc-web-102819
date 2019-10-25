@@ -14,12 +14,12 @@ def find_max_value(array)
   x = 0
   y = 0
   while x < array.size do
-      if array[x] > y 
+      if array[x] > y
         y = array[x]
       end
       x += 1
   end
-  y 
+  y
 end
 
 def find_min_value(array)
