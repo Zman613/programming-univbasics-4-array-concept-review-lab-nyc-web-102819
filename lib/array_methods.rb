@@ -31,5 +31,5 @@ def find_min_value(array)
       end
       x += 1
   end
-  y 
+  y
 end
