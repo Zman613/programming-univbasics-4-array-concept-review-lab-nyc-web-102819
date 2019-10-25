@@ -2,8 +2,8 @@ def find_element_index(array, value_to_find)
 
   x = 0
   while x < array.size do
-      if array[x] == value_to_find
-        return x
+      if array[x].include?(value_to_find) == true
+        return x 
       end
   end
 
